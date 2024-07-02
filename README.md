@@ -6,8 +6,8 @@ Ismélio Dias Cristóvão Cori
 
 1. **Composer**: Gerenciador de dependências do PHP. [Instalar Composer](https://getcomposer.org/download/)
 2. **PHP**: Versão 8.2 ou superior. [Instalar PHP](https://www.php.net/downloads.php)
-3. **Servidor Web**: Apache ou Nginx
-4. **Banco de Dados**: MySQL, PostgreSQL, SQLite ou SQL Server
+3. **Servidor Web**: Apache
+4. **Banco de Dados**: MySQL
 
 ## Passos para Configurar e Rodar o Projeto
 
