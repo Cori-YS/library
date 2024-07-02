@@ -1,7 +1,6 @@
 # Guia para Configurar e Rodar o Projeto ELibrary
 
 Ismélio Dias Cristóvão Cori
-N - 20210278
 
 ## Pré-requisitos
 
