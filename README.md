@@ -19,7 +19,7 @@ Use o Composer para instalar as dependências do projeto.
 composer install
 ```
 
-### 3. Configurar o Arquivo `.env`
+### 2. Configurar o Arquivo `.env`
 
 Copie o arquivo de exemplo `.env.example` para `.env` e configure as variáveis de ambiente, especialmente as configurações de banco de dados.
 
@@ -30,7 +30,7 @@ cp .env.example .env
 Edite o arquivo `.env` e configure as seguintes variáveis:
 
 ```env
-APP_NAME=SeuProjeto
+APP_NAME=elibrary
 APP_ENV=local
 APP_KEY=base64:chave-gerada-automaticamente
 APP_DEBUG=true
@@ -44,7 +44,7 @@ DB_USERNAME=usuario_do_banco
 DB_PASSWORD=senha_do_banco
 ```
 
-### 4. Gerar a Chave da Aplicação
+### 3. Gerar a Chave da Aplicação
 
 Gere a chave da aplicação Laravel.
 
@@ -52,7 +52,7 @@ Gere a chave da aplicação Laravel.
 php artisan key:generate
 ```
 
-### 5. Migrar o Banco de Dados
+### 4. Migrar o Banco de Dados
 
 Execute as migrações para configurar as tabelas do banco de dados.
 
@@ -60,14 +60,21 @@ Execute as migrações para configurar as tabelas do banco de dados.
 php artisan migrate --seed
 ```
 
-### 6. Executar o Servidor de Desenvolvimento
+### 5. Executar o Servidor de Desenvolvimento
 
-Inicie o servidor de desenvolvimento do Laravel.
+Inicie o servidor de desenvolvimento do Elibrary.
 
 ```sh
 php artisan serve
 ```
 
-### 7. Acessar a Aplicação
+Inicie o servidor de vite do Elibrary.
+
+```sh
+npm install
+npm run build
+```
+
+### 6. Acessar a Aplicação
 
 Abra o navegador e acesse a aplicação em [http://localhost:8000](http://localhost:8000).
